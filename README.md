@@ -1,2 +1,2 @@
 # EmergencyApp
-Android recess project
+EmergencyApp is an android platform application that outsources emergency service providers; Hospitals, Ambulance services, Fire stations, Police stations closest to the device owner's location providing a numbered list below the maps interface from which one can select a specific hospital, fire station, police station or ambulance provider and acquire their location using Google maps. The app also offers major functionalities of quick contact to emergency service providers, device owner's emergency details, device owner's emergency contact and the ability to send an emergency text message that also specifies current location to all contacts in the device with a single click of a button.
