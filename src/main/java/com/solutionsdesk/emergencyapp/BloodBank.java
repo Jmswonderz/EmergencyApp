@@ -86,11 +86,23 @@ public class BloodBank extends Activity implements OnClickListener {
                             loc.getLongitude(), 1);
                 } catch (IOException e) {
                     // TODO Auto-generated catch block
-                    // e.printStackTrace();
+/**
+     * This function will check the information is inputed (checkbox or
+     * textfield) and then insert it into SMS message) create the following
+     * message Hi, I am _____ I got into an accident and am in need of blood. I
+     * have a blood type of _____ and am in City Name. If you are in the city
+     * and have this blood type please contact me at Phone number.
+     */                    // e.printStackTrace();
                     Log.d("ERROR", "UNABLE TO GET LOCATION");
                 }
             }
-        }
+/**
+     * This function will check the information is inputed (checkbox or
+     * textfield) and then insert it into SMS message) create the following
+     * message Hi, I am _____ I got into an accident and am in need of blood. I
+     * have a blood type of _____ and am in City Name. If you are in the city
+     * and have this blood type please contact me at Phone number.
+     */        }
 
         @Override
         public void onProviderDisabled(String provider) {
