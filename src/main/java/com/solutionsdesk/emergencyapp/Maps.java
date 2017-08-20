@@ -91,7 +91,7 @@ public class Maps extends FragmentActivity {
 		/*
 		 * Check if any of the radios (Mobile Data or Wi-Fi) are on.
 		 */
-        final WifiManager wifiManager = (WifiManager) this.getSystemService(Context.WIFI_SERVICE);
+        final WifiManager wifiManager = (WifiManager) this.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         TelephonyManager telephonyManager = (TelephonyManager) this.getSystemService(Context.TELEPHONY_SERVICE);
         LocationManager manager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if(telephonyManager.getDataState() == 0 && wifiManager.isWifiEnabled() == false && manager.isProviderEnabled(LocationManager.GPS_PROVIDER) == false) {
@@ -359,7 +359,7 @@ public class Maps extends FragmentActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.maps, menu);
+        //getMenuInflater().inflate(R.menu.maps, menu);
         return true;
     }
 
