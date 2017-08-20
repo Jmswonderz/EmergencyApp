@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Emergency App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="sos">SOS</string>
+    <string name="police">Police</string>
+    <string name="emergency_Contact">Emergency \nContact</string>
+    <string name="home">Home</string>
+    <string name="hospital">Hospital</string>
+    <string name="blood_Bank">Blood Bank</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="settings">Settings</string>
+    <string name="update">Update Contact \nInformation</string>
+    <string name="update_User">Update User \nInformation</string>
+    <string name="name">Name </string>
+    <string name="enter_name">James Okoth</string>
+    <string name="number">Phone Number</string>
+    <string name="enter_number">10 digit Phone Number</string>
+    <string name="updateEM">Update Emergency \nContact</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_user">Update User \n Information</string>
+    <string name="address">Address</string>
+    <string name="enter_address">NNNN Street City, State</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="device_owner">Device Owner</string>
+    <string name="guest">Guest</string>
+    <string name="guest_name">Enter Guest Name</string>
+    <string name="guest_blood_type">Enter Guest Blood Type</string>
+    <string name="guest_phone_number">Enter Guest Phone Number</string>
+    <string name="preview">Preview</string>
+    <string name="save">Save</string>
+    <string name="home_address">Home Address</string>
+    <string name="enter_home_address">NNNN Street City, State</string>
+    <string name="home_phone">Home Phone</string>
+    <string name="enter_home_phone">Enter 10 Digit Number</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="enter_em">Enter Emergency Contact</string>
+    <string name="emergency_number">Emergency Contacts Number</string>
+    <string name="enter_em_number">Enter 10 Digit Emergency Number</string>
+    <string name="send">Send</string>
+    <string name="enter_blood_type">Enter Blood Type</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="gps_location">Use GPS for Location</string>
+    <string name="location">Location</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="action_settings">Settings</string>
+    <string name="fire_station">Fire Station</string>
+    <string name="title_activity_database">DatabaseActivity</string>
+    <string name="title_activity_sqlite_helper">SQLiteHelper</string>
+    <string name="format_name">Format: First Last</string>
+    <string name="format_address">Format: NNNN Street City, State</string>
+    <string name="format_phone_number">Format: nnnnnnn (7 or 10 digit number)</string>
+    <string name="format_blood">Format: A+ A- B+ B- AB+ AB- O+ O-</string>
+    <string name="select_blood">Blood Type</string>
+
+    <string-array name="blood_array">
+        <item>Blood Type</item>
+        <item>A-</item>
+        <item>A</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B</item>
+        <item>B+</item>
+        <item>O-</item>
+        <item>O</item>
+        <item>O+</item>
+        <item>AB-</item>
+        <item>AB</item>
+        <item>AB+</item>
+    </string-array>
+
+    <string name="title_activity_pop_up">PopUpActivity</string>
+    <string name="title_activity_direction">DirectionActivity</string>
+
+</resources>
