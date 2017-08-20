@@ -71,7 +71,7 @@ android:orientation="horizontal" >
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:text="@string/blood_type" />
         <CheckBox
             android:id="@+id/blood_type_checkBox"
