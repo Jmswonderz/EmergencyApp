@@ -86,27 +86,16 @@ public class BloodBank extends Activity implements OnClickListener {
                             loc.getLongitude(), 1);
                 } catch (IOException e) {
                     // TODO Auto-generated catch block
-/**
-     * This function will check the information is inputed (checkbox or
-     * textfield) and then insert it into SMS message) create the following
-     * message Hi, I am _____ I got into an accident and am in need of blood. I
-     * have a blood type of _____ and am in City Name. If you are in the city
-     * and have this blood type please contact me at Phone number.
-     */                    // e.printStackTrace();
+
                     Log.d("ERROR", "UNABLE TO GET LOCATION");
                 }
             }
-/**
-     * This function will check the information is inputed (checkbox or
-     * textfield) and then insert it into SMS message) create the following
-     * message Hi, I am _____ I got into an accident and am in need of blood. I
-     * have a blood type of _____ and am in City Name. If you are in the city
-     * and have this blood type please contact me at Phone number.
-     */        }
+     }
 
         @Override
         public void onProviderDisabled(String provider) {
             Context context = getBaseContext();
+
             String title = "Warning!";
             String message = "Provider: " + provider + " disabled";
             String button1String = "Ok";
@@ -132,7 +121,14 @@ public class BloodBank extends Activity implements OnClickListener {
         }
     }
 
-    
+    /**
+     * This function will check the information is inputed (checkbox or
+     * textfield) and then insert it into SMS message) create the following
+     * message Hi, I am _____ I got into an accident and am in need of blood. I
+     * have a blood type of _____ and am in City Name. If you are in the city
+     * and have this blood type please contact me at Phone number.
+     */
+
     public void preview() {
         // this boolean is used to determine if the message is completed
         // correctly.
