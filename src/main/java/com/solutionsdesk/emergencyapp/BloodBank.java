@@ -120,13 +120,7 @@ public class BloodBank extends Activity implements OnClickListener {
         }
     }
 
-    /**
-     * This function will check the information is inputed (checkbox or
-     * textfield) and then insert it into SMS message) create the following
-     * message Hi, I am _____ I got into an accident and am in need of blood. I
-     * have a blood type of _____ and am in City Name. If you are in the city
-     * and have this blood type please contact me at Phone number.
-     */
+    
     public void preview() {
         // this boolean is used to determine if the message is completed
         // correctly.
