@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="20dip" >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="@string/name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/format_name"
+            android:text="@string/format_name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="70dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name_field"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="@string/number"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/format_number"
+            android:text="@string/format_phone_number"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/number_field"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="@string/address"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/format_address"
+            android:text="@string/format_address"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/address_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_address"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="@string/blood_type"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"/>
+
+        <!--  <TextView
+         android:id="@+id/format_blood"
+         android:text="@string/format_blood"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:textSize="11sp"/> -->
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/blood_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/blood_array"
+        android:prompt="@string/select_blood" />
+
+    <!--
+            <EditText
+                android:id="@+id/blood_type_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_blood_type"/>
+            -->
+    <Button
+        android:id="@+id/updateUser_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:onClick="onClick"
+        android:text="@string/update_user"
+        />
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:onClick="onClick"
+        android:text="@string/cancel"/>
+
+</LinearLayout>
+
+
+</ScrollView>
