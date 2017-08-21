@@ -25,7 +25,6 @@ public class Database extends SQLiteOpenHelper {
     public static final String LNG = "LNG";
     public static final String TABLE_NAME = "ambulances";
     public static final String TABLE_HEADER = NAME+", "+CONTACT+", "+LAT+", "+LNG;
-
     private ArrayList<String> result = new ArrayList<String>();
     private SQLiteDatabase dbase;
 
